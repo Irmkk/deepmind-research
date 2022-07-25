@@ -144,7 +144,7 @@ def read_obj_file(obj_file):
 def read_obj(obj_path):
   """Open .obj file from the path provided and read vertices and faces."""
 
-  with open(obj_path) as obj_file:
+  with open("deepmind-research/polygen/"+obj_path) as obj_file:
     return read_obj_file(obj_file)
 
 
