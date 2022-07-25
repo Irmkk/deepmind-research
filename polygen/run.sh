@@ -15,6 +15,5 @@
 
 python3 -m venv polygen
 source polygen/bin/activate
-pip3 install .
-python3 model_test.py
-deactivate
+pip3 install -e deepmind-research/polygen/
+python3 deepmind-research/polygen/model_test.py
