@@ -22,8 +22,8 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-REQUIRED_PACKAGES = ['numpy', 'dm-sonnet==1.36', 'tensorflow==1.14',
-                     'tensor2tensor==1.15', 'networkx', 'matplotlib', 'six']
+REQUIRED_PACKAGES = ['numpy==1.19.5', 'dm-sonnet==1.36', 'tensorflow==1.15',
+                     'tensor2tensor==1.14', 'networkx', 'matplotlib', 'six']
 
 setup(
     name='polygen',
